@@ -1,0 +1,158 @@
+ 
+ 
+status:open -is:wip
+Sign up
+Sign in
+Subject	Owner	Reviewers	Repo	Branch	Updated	Size	Status	CR	V
+feat: implement skeleton loaders for actor and production search pages
+ 
+Leila237
+Essa237
+, 
+Collins Wandji
+…/tools/WdTmCollab	main (T412358/loading-skeleton)	10:07 PM	M	 2 missing	
+Allow OAuth callback URLs with custom protocols without modifying \
+ 
+Chuiimuii_ofc
+Dreamy Jazz
+, 
+Gergő Tisza
+, +1
+…/extensions/OAuth	master	9:43 PM	L	 2 missing	
+Add BasePage.stable_revision() for FlaggedRevs stable revid
+ 
+Ezra yendau
+Zache-tool
+pywikibot/core	master	9:42 PM	M	 1 missing 	
+-1
+This PR resolves https://phabricator.wikimedia.org/T412364 Here, hanges: - optimised caching settings (staleTime: 5 mins). - Created typed custom hooks in `src/hooks/api/`: - `useActorSearch` - `useActors` - `useCoActors` (supports server-side pagination params) ` - Refactored `ActorsPage` to use `useCoActors` hook, maintaining the 9-card grid layout with correct pagination logic. - Refactored `ActorDetailPage` to eliminate manual useEffect fetching. - Refactored `ProductionsPage` and `SharedActorsFromMovies` (Compare page) to use production-related hooks.
+ 
+Essa237
+Eugene233
+, 
+Collins Wandji
+…/tools/WdTmCollab	main ( T412364/implement-advanced-caching-and-data-manag… )	9:30 PM	L	 2 missing	
+fix: resolving conflicts
+ 
+NkwadaNora
+Collins Wandji
+…/tools/WdTmCollab	main (T412354/error-boundry)	9:08 PM	XS	 2 missing	
+Add new function review() to pywikibot/site/ _apisite.py
+ 
+Ezra yendau
+Zache-tool
+pywikibot/core	master	8:48 PM	L	 2 missing 	
+Add Error Boundary component for graceful error handling:create ErrorBoundary component with user-friendly error UI, Catch runtime errors and prevent app crashes, Add Try Again, Go Home, and Reload Page options, Include error logging and stack traces in dev mode, Integrate Error Boundary in main layout, Display proper error messages instead of white screen bug:T412354
+ 
+NkwadaNora
+…/tools/WdTmCollab	main (T412354/error-boundry)	8:16 PM	L	 2 missing	
+Rancid: remove old eqiad row c/d Juniper switches
+ 
+Cathal Mooney
+operations/puppet	production	7:19 PM	XS	 1 missing	
+Fix header logo text spacing and casing
+ 
+Leila237
+…/tools/WdTmCollab	main (T412352/logo-fix)	7:16 PM	S	 2 missing	
+Deduplicate makeArrayOneBased()
+ 
+SD0001
+Umherirrender
+…/extensions/Scribunto	master (makearrayonebased)	6:12 PM	S	 1 missing	
+TallyListPage: remove uploading encrypted dumps to tallier
+ 
+Novem Linguae
+Huji
+, 
+SD0001
+…/extensions/SecurePoll	master (delete-upload-encrypted-dump)	5:10 PM	M	 1 missing 	
+Approve account requests when the 'realname' preference is hidden.
+ 
+Jack Phoenix
+…/extensions/ConfirmAccount	master (T157984)	5:04 PM	S	 1 missing	
+Selenium: Loosen gutter width tolerance in highlighting-wikitext2017 test
+ 
+Prakhar0804
+Cparle
+, 
+MusikAnimal
+, +2
+…/extensions/CodeMirror	master	3:59 PM	XS	 1 missing 	
+-2
+mediawiki.special.search.styles: prevent result excerpt overflow
+ 
+Luka Simić
+Ebernhardson
+, 
+Jon Robson (OOO)
+mediawiki/core	master	12:07 PM	XS	 1 missing	
+codeFolding: check if node is null
+ 
+Bhsd
+Cparle
+, 
+MusikAnimal
+, +1
+…/extensions/CodeMirror	master (fold)	10:15 AM	XS	 1 missing	
+Fix Ctrl+Z issue while editing
+ 
+Maunikashekar
+…/extensions/WandaScribe	master	9:39 AM	M	 1 missing	
+Update README.md & Fix CI errors
+ 
+Naresh Kumar
+…/extensions/WandaScore	master	9:20 AM	M	 2 missing	
+-1
+Deprecate modification of the namespaces hook in SkinTemplateNavigation::Universal
+ 
+Jon Robson (OOO)
+mediawiki/core	master (T412238)	8:55 AM	XS	 2 missing	
+-1
+Expand development tooling
+ 
+Jon Robson (OOO)
+Aude
+, 
+Volker E.
+…/extensions/MobileFrontendContentProvider	master (T399896)	8:46 AM	M	 2 missing	
+-1
+Expose mw.ext.WebAuthn.Registrator as its own module
+ 
+Roan Kattouw
+Manfredi
+, 
+Mstyles
+…/extensions/WebAuthn	master (expose-registrator)	7:49 AM	S	 1 missing 	
+Remove LoggedOut cookie handling
+ 
+Gergő Tisza
+BBlack
+, 
+Timo Tijhof
+, +1
+operations/puppet	production	7:29 AM	XS	 1 missing	
++1
+docs(utils): standardize JSDoc comments in endpoints.ts
+ 
+Essa237
+…/tools/WdTmCollab	main (change-1217813)	6:53 AM	S	 2 missing	
+Clean up Hooks and use dependency injection
+ 
+SomeRandomDeveloper
+…/extensions/Commentbox	master	6:46 AM	M	 1 missing 	
+ncredir: add redirects for www.wikipedia25.(org|com)
+ 
+Daniel Zahn
+Brett Cornwall
+, 
+Pppery
+operations/puppet	production	5:36 AM	XS	 1 missing	
++1
+statsv: Add support for histograms
+ 
+Michael Große
+Timo Tijhof
+, 
+Cwhite
+performance/statsv	master	5:27 AM	S	 1 missing 	
+1 - 25 of many
