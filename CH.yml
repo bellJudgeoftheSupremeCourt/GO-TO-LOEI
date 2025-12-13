@@ -156,3 +156,309 @@ Timo Tijhof
 Cwhite
 performance/statsv	master	5:27 AM	S	 1 missing 	
 1 - 25 of many
+ 
+ 
+status:open -is:wip
+Sign up
+Sign in
+Subject	Owner	Reviewers	Repo	Branch	Updated	Size	Status	CR	V
+Rename solidToOpacity to solid-to-opacity and use value accessor
+ 
+Esanders
+Volker E.
+, 
+Bartosz
+, +1
+mediawiki/core	master (solid-to-opacity)	5:25 AM	S	 1 missing 	
+feat(mw.track): add support for histogram metrics
+ 
+Michael Große
+Timo Tijhof
+, 
+Sergio
+, +1
+…/extensions/WikimediaEvents	master	5:23 AM	M	 1 missing 	
+styles: Add top margin to `h3` headings after sibling sections
+ 
+Volker E.
+Subramanya
+, 
+Aude
+, +1
+…/skins/MinervaNeue	master (styles-add-sectioned-h3-top-margin-T374753)	5:03 AM	XS	 1 missing 	
+-1
+Skip test class when LuaEngineTestBase is not available
+ 
+Antoine Musso
+Adam Wight
+, 
+Novem
+, +2
+…/extensions/FlaggedRevs	master	5:02 AM	XS	 1 missing	
++1
+SECURITY: Sanitizer: disallow underscore and wide underscore in data-* attribute names
+ 
+Reedy
+mediawiki/core	REL1_43	4:57 AM	S	 1 missing	
+SECURITY: Sanitizer: disallow underscore and wide underscore in data-* attribute names
+ 
+Reedy
+mediawiki/core	REL1_39	4:54 AM	S	 1 missing	
+Fix underscore encoding in tests and re-enable
+ 
+Reedy
+…/extensions/Cite	master	4:46 AM	XL	 1 missing	
+SECURITY: Sanitizer: disallow underscore and wide underscore in data-* attribute names
+ 
+Reedy
+mediawiki/core	master	4:45 AM	S	 1 missing	
+SECURITY: Sanitizer: disallow underscore and wide underscore in data-* attribute names
+ 
+Reedy
+mediawiki/core	REL1_44	4:45 AM	S	 1 missing	
+SECURITY: Sanitizer: disallow underscore and wide underscore in data-* attribute names
+ 
+Reedy
+mediawiki/core	REL1_45	4:45 AM	S	 1 missing	
+unlink wikipedia25.[org|com] from ncredir, point to k8s-ingress
+ 
+Daniel Zahn
+Brett Cornwall
+, 
+Fabfur
+, +2
+operations/dns	master	4:20 AM	S	 1 missing	
+Duplicate upstream changes to solid-to-opacity
+ 
+Esanders
+VisualEditor/VisualEditor	master (solid-to-opacity)	4:10 AM	S	 1 missing	
+EditCheck: Force enable should enable any checks in an AB test
+ 
+Esanders
+David Lynch
+…/extensions/VisualEditor	master (force-enable)	3:52 AM	S	 2 missing 	
+-1
+Rename various locales so their translations can actually be found
+ 
+Pppery
+Aklapper
+phabricator/translations	wmf/stable	3:52 AM	M	 2 missing 	
+ApiDiscussionToolsEdit: Remove autosubscribe API param
+ 
+Esanders
+Bartosz
+, 
+David Lynch
+…/extensions/DiscussionTools	master (thanks)	3:45 AM	S	
+Merge Conflict
+UstringLibrary: Silence preg_match warnings
+ 
+Ammarpad
+SD0001
+…/extensions/Scribunto	master (T392641)	2:54 AM	S	 1 missing 	
+ats: gerrit: don't validate TLS host for now
+ 
+CDanis
+sukhe
+, 
+Valentin Gutierrez
+, +2
+operations/puppet	production (gerrit-lb)	2:32 AM	XS	 1 missing 	
+-1
+tests(ReviseTone): Limited Cypress tests to ensure Revise Tone shows once
+ 
+Michael Große
+EMcFarland
+, 
+Martin Urbanec
+, +1
+…/extensions/GrowthExperiments	master	2:23 AM	S	 1 missing	
++1
+fix(ReviseTone): don't emit surfaceReady events to show the tone check
+ 
+David Lynch
+Cyndywikime
+, 
+Michael
+, +2
+…/extensions/GrowthExperiments	master	2:23 AM	S	 1 missing	
+feat(ReviseTone): Adjust onboarding spacing and font-sizes
+ 
+Michael Große
+Sergio
+, 
+Martin Urbanec
+…/extensions/GrowthExperiments	master	2:06 AM	S	 1 missing	
+CurlWrapper logging fixes
+ 
+Elliott Eggleston
+Cstone
+, 
+Damilare
+, +3
+…/fundraising/SmashPig	master (curlLogging)	2:03 AM	S	 1 missing	
+Add message to Special:Block explaining how IP block affects temp users
+ 
+Tchanders
+Eric
+, 
+HMonroy
+, +4
+mediawiki/core	master (block-ip-target)	1:53 AM	S	 1 missing	
+Display watchlist items in a table in Special:EditWatchlist
+ 
+Cparle
+mediawiki/core	master (T411596)	1:35 AM	L	 1 missing	
+releases: use stunnel with rsync from deployment server
+ 
+Daniel Zahn
+Jelto
+, 
+Reedy
+operations/puppet	production	1:20 AM	XS	 1 missing	
++1
+migrateMentorStatusAway: dry-run should exit with code 0
+ 
+Daniel Kinzler 👾
+Cyndywikime
+, 
+Sergio
+, +2
+…/extensions/GrowthExperiments	master (dry-run)	1:18 AM	S	 2 missing 	
+-1
+26 - 50 of many
+
+ 
+ 
+status:open -is:wip
+Sign up
+Sign in
+Subject	Owner	Reviewers	Repo	Branch	Updated	Size	Status	CR	V
+LCStaticArrays update to do fallback logic at read time
+ 
+Brooke Vibber
+Ori Livneh
+mediawiki/core	master	1:13 AM	L	 1 missing 	
++1
+Lua: Don't use makeArrayOneBased()
+ 
+SD0001
+…/extensions/PageAssessments	master (makearrayonebased)	1:08 AM	S	 1 missing	
+[DO NOT MERGE] Dummy patch for PatchDemo config
+ 
+Roan Kattouw
+Gergő Tisza
+…/extensions/OATHAuth	master (passkey-dialog)	12:49 AM	XS	 1 missing	
+Initial version of passkey dialog
+ 
+Roan Kattouw
+Manfredi
+, 
+Mstyles
+…/extensions/OATHAuth	master (passkey-dialog)	12:49 AM	L	 1 missing 	
+Add a test for BotPassword validation to accept 4-tuple format
+ 
+Prakhar0804
+pywikibot/core	master	12:46 AM	S	 2 missing 	
+-1
+Temporarily disable Cite parser tests
+ 
+Bartosz Dziewoński
+…/extensions/Cite	REL1_39	12:44 AM	--	 2 missing	
+-1
+Clean up SpecialAddComment and use dependency injection
+ 
+SomeRandomDeveloper
+…/extensions/Commentbox	master	12:40 AM	S	 1 missing	
+Deploy TestKitchen to Beta Cluster
+ 
+cjming
+operations/mediawiki-config	master (T407806/deploy-test-kitchen-beta-cluster)	12:37 AM	M	 1 missing	
+Temporarily disable Cite parser tests
+ 
+Bartosz Dziewoński
+…/extensions/Cite	REL1_45	12:36 AM	--	 1 missing	
+Temporarily disable Cite parser tests
+ 
+Bartosz Dziewoński
+…/extensions/Cite	REL1_44	12:35 AM	--	 1 missing	
+Temporarily disable Cite parser tests
+ 
+Bartosz Dziewoński
+…/extensions/Cite	REL1_43	12:35 AM	--	 1 missing	
+Temporarily disable Cite parser tests
+ 
+Bartosz Dziewoński
+…/extensions/Cite	master	12:30 AM	--	 1 missing	
+MapCacheLRU: Add template phpdoc
+ 
+Gergő Tisza
+Aaron
+mediawiki/core	master	12:28 AM	S	 2 missing 	
+-1
+Decommission Article Summaries
+ 
+K. Sarabia
+Eric
+operations/mediawiki-config	master (T411558-article-sum-decomissioning)	12:24 AM	S	 1 missing	
+mobileSectionSwitch: experiment name change
+ 
+David Lynch
+Santiago
+…/extensions/WikimediaEvents	wmf/1.46.0-wmf.5	12:21 AM	XS	 1 missing	
++1
+product_metrics.contributors.experiments stream needs use_edge_uniques
+ 
+David Lynch
+Mikhail Popov
+operations/mediawiki-config	master	12:21 AM	XS	 1 missing	
++1
+Zuul: [mediawiki/extensions/PersonalDashboard] Add prod template
+ 
+Jsn.sherman
+Antoine Musso
+integration/config	master (Jsn.sherman/T412528)	12:20 AM	XS	 1 missing	
+CommonSettings-labs: Load PersonalDashbard extension
+ 
+Jsn.sherman
+operations/mediawiki-config	master (Jsn.sherman/T412528)	12:19 AM	XS	 1 missing	
+InitialiseSettings-labs.php: Deploy PersonalDashboard
+ 
+Jsn.sherman
+operations/mediawiki-config	master (Jsn.sherman/T412528)	12:19 AM	XS	 1 missing	
+InitialiseSettings.php: Add wmgUsePersonalDashboard
+ 
+Jsn.sherman
+operations/mediawiki-config	master (Jsn.sherman/T412528)	12:19 AM	XS	 1 missing	
+extension-list: Add PersonalDashboard
+ 
+Jsn.sherman
+operations/mediawiki-config	master (Jsn.sherman/T412528)	12:19 AM	XS	 1 missing	
+Remove temporary fragment normalization
+ 
+Arlolra
+C.
+, 
+Subramanya
+…/services/parsoid	master	12:13 AM	XS	 1 missing	
+Use DOMCompat to append document fragment
+ 
+Arlolra
+C.
+, 
+Subramanya
+mediawiki/core	master	12:13 AM	S	 1 missing	
+GQL: Validate searchItems query param
+ 
+Jakob
+Silvan
+, 
+Dima
+, +2
+…/extensions/Wikibase	master (validate-query)	Dec 12	L	 1 missing	
+Ensure ve-active-* classes are removed in teardown
+ 
+Esanders
+David Lynch
+…/extensions/VisualEditor	master (tocwidget)	Dec 12	XS	 1 missing	
+51 - 75 of many
